@@ -1,20 +1,81 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ramadhan Super Apps
 
-# Run and deploy your AI Studio app
+A Vite + React landing page for the Ramadhan Super Apps product. Built for fast iteration, simple deployment, and easy customization.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jerdm_ZUPgQI-HGngqPmINDmtAVgYEpV
+- Modular React components for each section
+- Clean content configuration in a single place
+- Fast local development with Vite
+- Production-ready build output
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React 19
+- TypeScript
+- Vite
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js 18+ recommended
+
+### Install
+
+```bash
+npm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 to view the site.
+
+### Build
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+.
+├─ components/           # Page sections
+├─ App.tsx               # App composition
+├─ constants.tsx         # Content and copy
+├─ config.ts             # Site configuration
+├─ index.tsx             # Entry point
+├─ index.html            # HTML template
+└─ vite.config.ts        # Vite config
+```
+
+## Customize Content
+
+- Update headings, copy, and lists in `constants.tsx`.
+- Tweak site-level values in `config.ts`.
+- Add or reorder sections in `App.tsx`.
+
+## Deployment
+
+This is a static Vite app. Build with:
+
+```bash
+npm run build
+```
+
+Then deploy the `dist/` folder to your hosting provider (Vercel, Netlify, Cloudflare Pages, GitHub Pages, etc.).
+
+## License
+
+Specify your license here.
