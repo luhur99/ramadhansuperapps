@@ -11,6 +11,7 @@ import FAQ from './components/FAQ';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 import SidebarNav from './components/SidebarNav';
+import StickyBottomCTA from './components/StickyBottomCTA';
 
 // Neuter History API to prevent Error 153 in restricted environments
 if (typeof window !== 'undefined') {
@@ -111,6 +112,7 @@ function App() {
       </main>
       
       <Footer />
+      <StickyBottomCTA />
     </div>
   );
 }

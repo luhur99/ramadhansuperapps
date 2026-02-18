@@ -55,16 +55,16 @@ const FeaturesDesire: React.FC = () => {
             alt="Product usage lifestyle" 
             className="w-full h-[400px] object-cover"
           />
-          <div className="absolute inset-0 bg-emerald-900/60 flex flex-col items-center justify-center text-center p-8">
-            <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6">
+          <div className="absolute inset-0 bg-emerald-900/60 flex flex-col items-center justify-center text-center p-4 md:p-8">
+            <h2 className="text-xl md:text-4xl font-extrabold text-white mb-3 md:mb-6 leading-tight">
               Siap Jadikan Ramadhan Kali Ini Tak Terlupakan?
             </h2>
-            <p className="text-emerald-50 text-xl max-w-2xl mb-8">
+            <p className="text-emerald-50 text-xs md:text-lg max-w-xl mb-4 md:mb-8 line-clamp-3 md:line-clamp-none">
               Beri mereka memori indah tentang ibadah sejak dini. Investasi terbaik untuk masa depan akhirat mereka.
             </p>
             <button 
               onClick={() => (window as any).safeScrollTo('offer')}
-              className="px-10 py-5 bg-white text-emerald-900 font-bold text-xl rounded-2xl hover:bg-emerald-50 transition-all scale-100 hover:scale-105 cursor-pointer"
+              className="px-5 py-3 md:px-10 md:py-5 bg-white text-emerald-900 font-bold text-sm md:text-xl rounded-lg md:rounded-2xl hover:bg-emerald-50 transition-all scale-100 hover:scale-105 cursor-pointer shadow-xl shadow-emerald-900/20"
             >
               Ambil Promonya Sekarang
             </button>

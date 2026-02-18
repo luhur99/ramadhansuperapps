@@ -49,7 +49,7 @@ const VideoDemo: React.FC = () => {
           <div className="absolute -top-12 -left-12 w-48 h-48 bg-emerald-100 rounded-full blur-3xl opacity-60 -z-10"></div>
           <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-rose-100 rounded-full blur-3xl opacity-60 -z-10"></div>
 
-          <div className="relative group">
+          <div id="video" className="relative group scroll-mt-32">
             {/* Outer Glow */}
             <div className="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 to-teal-400 rounded-[34px] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
             

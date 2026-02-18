@@ -27,10 +27,11 @@ const Hero: React.FC = () => {
                 Lihat Penawaran Spesial
               </button>
               <button 
-                onClick={() => (window as any).safeScrollTo('features')}
-                className="px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all cursor-pointer"
+                onClick={() => (window as any).safeScrollTo('video')}
+                className="px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all cursor-pointer relative group overflow-hidden"
               >
-                Lihat Fitur Dulu
+                <div className="absolute -inset-1.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-[34px] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                <span className="relative">Lihat Fitur Dulu</span>
               </button>
             </div>
           </div>
