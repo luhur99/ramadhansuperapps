@@ -72,17 +72,17 @@ const StickyBottomCTA: React.FC = () => {
         </div>
 
         {/* CTA Button */}
-        <a
-          href="https://jawaradigital.myscalev.com/orderramadhansuperkidsapps"
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="w-full md:w-auto px-8 py-3 bg-yellow-400 text-emerald-950 font-black text-lg rounded-xl hover:bg-yellow-300 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-yellow-400/20 whitespace-nowrap flex items-center justify-center gap-2 no-underline"
-        >
-          <span>AMBIL PROMO</span>
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-          </svg>
-        </a>
+          <a
+            href={CONFIG.checkoutLink}
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-full md:w-auto px-8 py-3 bg-yellow-400 text-emerald-950 font-black text-lg rounded-xl hover:bg-yellow-300 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-yellow-400/20 whitespace-nowrap flex items-center justify-center gap-2 no-underline"
+          >
+            <span>AMBIL PROMO {CONFIG.priceAfter}</span>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
       </div>
     </div>
   );

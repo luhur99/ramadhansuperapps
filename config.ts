@@ -7,9 +7,9 @@ import { ProductConfig } from './types';
 export const CONFIG: any = {
   productName: "Ramadhan Super Kids Apps",
   brandName: "Ramadhan Super Kids Apps",
-  priceBefore: "Rp. 499.000",
-  priceAfter: "Rp. 147.000",
-  promoLabel: "(EarlyBird)",
+  priceBefore: "Rp. 147.000",
+  priceAfter: "Rp. 47.000",
+  promoLabel: "(Ramadhan Sale!)",
   checkoutLink: "https://jawaradigital.myscalev.com/orderramadhansuperkidsapps", 
   metaPixelId: "341310460369561", 
   youtubeVideoId:"QE2Fn9eOX7Y", // GANTI DENGAN ID VIDEO YOUTUBE BUNDA (Contoh: dQw4w9WgXcQ)
